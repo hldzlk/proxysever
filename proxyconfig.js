@@ -1,12 +1,8 @@
-const config = {
-  //服务端口
-  severPort: 8888,
-  //代理路径
-  proxyUrl: '/api',
-  //代理地址
-  proxySever: '192.168.50.192',
-  // proxySever: 'http://192.168.1.238:8001',
-  // staticdir: __dirname,
-  staticdir:'/Users/link/sites/201609/hwops',
-}
-export default config;
+//服务端口
+export const severPort = 8888;
+//代理路径
+export const proxyUrl = '/api';
+//代理地址
+export const proxySever = 'http://localhost:3000';
+//静态文件服务路径
+export const staticdir = __dirname;

@@ -3,7 +3,7 @@
 ### 用法：
 ```
 npm install
-babel-node proxysever.js
+npm run start
 ```
 ### 注意:
 - 配置的路径会自动走代理
